@@ -1,7 +1,3 @@
-
-#6/28/21 - include all IERF/TERF positions in the output files, even if they don't match a start/stop codon
-#switch colours on the strip plots
-
     
 #############
 # Functions #

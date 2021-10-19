@@ -50,15 +50,20 @@ List of output files (filenames contain date or time, shown here as #date# and #
 ******************************************************************************************************
 
 Filenames
+
 ret_codon_frequency_#date#_#time#.txt
+
 api_codon_frequency_#date#_#time#.txt
 
 Description
+
 Tab-delimited .txt showing the frequency of all trinucleotide sequences at positions from -50 to +10 relative to start codons for ret data and stop codons for Api-Pmn data
 ******************************************************************************************************
 
 Filenames
+
 RET all peaks_#date#_#time#.txt
+
 Api all peaks_#date#_#time#.txt
 
 Description
@@ -68,25 +73,33 @@ Tab-delimited .txt showing peak coordinate, strand and peak height
 ******************************************************************************************************
 
 Filename
+
 Ret-full report_#date#_#time#.txt
 
 Description
+
 Tab-delimited .txt showing Ret peak height, start codon, gap, strand, start codon coordinate, stop codon coordinate, nt sequence, aa sequence
 
 ******************************************************************************************************
 
 Filename
+
 Api-full report_#date#_#time#.txt
 
 Description
+
 Tab-delimited .txt showing ApiPmn peak coordinate, peak height, stop codon, gap, strand, stop codon coordinate
 
 ******************************************************************************************************
 
 Filenames
+
 Annotated_RBS_sequences_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
+
 Isoform_RBS_sequences_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
+
 Novel_RBS_sequences_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
+
 random_sequences_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
 
 Description
@@ -96,9 +109,13 @@ Description
 ******************************************************************************************************
 
 Filenames
+
 Annotated_MFE_deltaG_scores_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
+
 Isoform_MFE_deltaG_scores_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
+
 Novel_MFE_deltaG_scores_Annotated_Isoform_Novel_MFE_start_codon_scores_#date#.txt
+
 Random_MFE_deltaG_scores_Annotated_Isoform_Novel_MFE_start_codon_scores.txt
 
 Description
@@ -108,6 +125,7 @@ Single column text files listing delta G scores for predicted minimum free energ
 ******************************************************************************************************
 
 Filename
+
 Annotated_Isoform_Novel_MFE_start_codon_scores#date#.png
 
 Description
@@ -117,6 +135,7 @@ Strip plot of delta G scores for predicted minimum free energy RNA structures ar
 ******************************************************************************************************
 
 Filename
+
 MFE_statistical_summary_starts_#date#_#time#.txt
 
 Description
@@ -126,14 +145,17 @@ Statistical comparisons of delta G scores for minimum free energy RNA structure 
 ******************************************************************************************************
 
 Filename
+
 ORF_list_#date#_#time#.txt
 
 Description
+
 Tab-delimited lists of ORFs showing: Ribo-RET peak coordinate, Ribo-Ret peak height, start codon, start codon to Ribo-RET peak distance (gap), strand, start codon coordinate, stop codon, stop codon coordinate, nt sequence, aa sequence, Ribo-ApiPmn peak coordinate, Ribo-ApiPmn peak height, stop codon to ApiPmn peak distance (gap), ORF category (Annotated, Isoform, Novel)
 
 ******************************************************************************************************
 
 Filename
+
 Summary_#date#.txt
 
 Summary of the program output listing: Threshold, Window, Span, Fold over Span mean threshold, Acceptable start codon sequences and gaps, Acceptable stop codon sequences and gaps 

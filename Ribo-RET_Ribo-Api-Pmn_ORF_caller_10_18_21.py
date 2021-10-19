@@ -996,7 +996,7 @@ for count in range(0, number_of_cycles):
         #add column descriptions
         ORF_list.write('Ribo-RET peak coord\tRibo-RET peak height\tStart codon\tStart codon to Ribo-RET peak distance\tStrand\t')
         ORF_list.write('Start codon coord\tStop codon\tStop codon coord\tnt seq\taa seq\t')
-        ORF_list.write('Ribo-ApiPmn peak coord\tRibo-ApiPmn peak height\tStart codon to Ribo-ApiPmn peak distance\tCategory\n')
+        ORF_list.write('Ribo-ApiPmn peak coord\tRibo-ApiPmn peak height\tStop codon to Ribo-ApiPmn peak distance\tCategory\n')
         
         for entry in Annotated_ORFs:
             for item in entry:
